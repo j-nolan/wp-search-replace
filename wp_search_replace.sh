@@ -162,7 +162,7 @@ echo done!
 echo "-----"
 
 echo "[Step 6] remove tmp DB and directory..."
-cd ..
 mysql --defaults-extra-file="$TMP_MYSQL_CREDENTIALS_FILE" --execute="DROP DATABASE IF EXISTS $TMP_DB_NAME;"
+cd ..
 rm -r $TMP_DIR
 echo "-----"
