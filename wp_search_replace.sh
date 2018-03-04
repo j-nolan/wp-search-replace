@@ -9,7 +9,7 @@ show_usage() {
     echo -e " * (required) -o, --output_db_file   where to save the replaced DB"
     echo -e " * (required) -s, --search           string to look for"
     echo -e " * (required) -r, --replace          replace search string with that string"
-    echo -e " *            -p, --DB_HAS_PASSWORD  if your DB has a password"
+    echo -e " *            -p, --db_has_password  if your DB has a password"
     echo -e " *            -h, --help             show this message"
     echo "-----"
     echo "Example: $0 \\"
