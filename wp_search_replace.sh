@@ -157,7 +157,7 @@ echo done!
 echo "-----"
 
 echo "[Step 5] search/replace and export to output DB..."
-wp search-replace "$SEARCH_STRING" "$REPLACE_STRING" --export=../$OUTPUT_DB_FILE
+wp search-replace "$SEARCH_STRING" "$REPLACE_STRING" --export="$(realpath ../$OUTPUT_DB_FILE)"
 echo done!
 echo "-----"
 
